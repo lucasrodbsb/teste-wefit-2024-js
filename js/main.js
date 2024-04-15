@@ -1,6 +1,6 @@
 $(document).ready( function () {
   $(".btn-group-vertical").css({
-    gap: "5px",
+    "gap": "5px",
     "flex-direction": "row",
     "align-items": "center",
     "justify-content": "center",
@@ -8,21 +8,21 @@ $(document).ready( function () {
   });
 
   $(".btn-group-vertical .btn-secondary").css({
-    padding: "8px 10px",
+    "padding": "8px 10px",
     "border-radius": "5px",
     "overflow-wrap": "normal",
   });
 
   $(".jumbotron").css({
     "text-align": "right",
-    color: "#fff",
+    "color": "#fff",
     "background-color": "#6B757E",
   });
 
   $(".jumbotron .btn").css({
-    color: "#fff",
+    "color": "#fff",
     "background-color": "#27A844",
-    border: "#27A844",
+    "border": "#27A844",
   });
 
   $(".card-title").first().text("Natureza");
